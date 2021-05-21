@@ -1,2 +1,2 @@
 # Meu Aprendizado Python
- Como eu aprendi python
+ Como eu aprendi e estou aprendendo Python
