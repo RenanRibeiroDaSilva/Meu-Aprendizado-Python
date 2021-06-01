@@ -18,9 +18,9 @@
 # Desta forma conseguiremos efetuar a aplicação independente de quantas casas o número desejado tenha em sua composição
 
 num = int(input('Informe um número:'))
-u   = num // 1 % 10         # Aquo fazemos uso da matemática para obter o resultado desejado. Pegamos o número
-d   = num // 10 % 10        # dividimos pela unidade desejada (unidade dividimos pro 1, centena dividimos por 100)
-c   = num // 100 % 10       # e ao buscarmos buscarmos o denominador desta divisão, encotraremos o resultado desejado.
+u   = num // 1 % 10         # Aqui fazemos uso da matemática para obter o resultado desejado. Pegamos o número
+d   = num // 10 % 10        # dividimos pela unidade desejada (unidade dividimos por 1, centena dividimos por 100)
+c   = num // 100 % 10       # e ao buscarmos o denominador desta divisão, encotraremos o resultado desejado.
 m   = num // 1000 % 10
 print('Analisando o número {}'.format(num))
 print('Unidade: {}'.format(u))
