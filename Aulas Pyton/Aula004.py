@@ -1,0 +1,8 @@
+print('====== Desafio 04======')
+n = input('Digite algo:')
+print('O tipo primitivo desse valor é', type(n))
+print('É um número?', n.isalnum())
+print('É alfabético?', n.isalpha())
+print('É númerico?', n.isnumeric())
+print('É maiúsculo', n.isupper())
+print('É decimal?', n.isdecimal())
