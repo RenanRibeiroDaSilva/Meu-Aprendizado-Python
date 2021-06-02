@@ -4,7 +4,7 @@
                     O  programa deverá escrever na tela se o usuário venceu ou perdeu."""
 
 #                       COMO EU FIZ!
-"""
+
 # importar a biblioteca random e usar o metodo randint(a,b)
 import random
 
@@ -20,7 +20,7 @@ if num_resposta == num_pensado:
 else:
     print('NÃO FOI DESSA VEZ! Eu estava pesando no número {}.'.format(num_pensado))
 print('-->FIM<--')
-"""
+
 
 #                    COMO O PROFESSOR GUANABARA FEZ
 from random import randint
